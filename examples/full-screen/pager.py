@@ -12,10 +12,8 @@ from prompt_toolkit.layout.dimension import LayoutDimension as D
 from prompt_toolkit.layout.layout import Layout
 from prompt_toolkit.lexers import PygmentsLexer
 from prompt_toolkit.styles import Style
-from prompt_toolkit.widgets import TextArea, SearchToolbar
-
+from prompt_toolkit.widgets import SearchToolbar, TextArea
 from pygments.lexers.python import PythonLexer
-
 
 # Create one text buffer for the main content.
 

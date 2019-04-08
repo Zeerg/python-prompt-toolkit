@@ -1,7 +1,8 @@
 #!/usr/bin/env python
-from __future__ import unicode_literals, print_function
-import sys
+from __future__ import print_function, unicode_literals
+
 import sqlite3
+import sys
 
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter

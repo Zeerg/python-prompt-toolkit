@@ -19,8 +19,8 @@ from prompt_toolkit.patch_stdout import patch_stdout
 from prompt_toolkit.shortcuts import PromptSession
 from pygments.lexers.python import PythonLexer
 
-import gtk
 import gobject
+import gtk
 
 
 def hello_world_window():

@@ -17,7 +17,6 @@ from prompt_toolkit.key_binding import KeyBindings
 from prompt_toolkit.lexers import PygmentsLexer
 from pygments.lexers.html import HtmlLexer
 
-
 html_completer = WordCompleter([
     '<body>', '<div>', '<head>', '<html>', '<img>', '<li>', '<link>', '<ol>',
     '<p>', '<span>', '<table>', '<td>', '<th>', '<tr>', '<ul>',
